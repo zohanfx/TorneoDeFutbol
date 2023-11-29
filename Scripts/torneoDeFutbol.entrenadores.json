@@ -1,6 +1,6 @@
 [{
   "_id": {
-    "$oid": "6566ba8ed200be7d13915093"
+    "$oid": "6566c1cd5edc11d949fae61a"
   },
   "nombre": "Pep Guardiola",
   "edad": 50,
@@ -8,7 +8,7 @@
 },
 {
   "_id": {
-    "$oid": "6566ba8ed200be7d13915094"
+    "$oid": "6566c1cd5edc11d949fae61b"
   },
   "nombre": "Jurgen Klopp",
   "edad": 54,
@@ -16,7 +16,7 @@
 },
 {
   "_id": {
-    "$oid": "6566ba8ed200be7d13915095"
+    "$oid": "6566c1cd5edc11d949fae61c"
   },
   "nombre": "Zinedine Zidane",
   "edad": 49,
@@ -24,7 +24,7 @@
 },
 {
   "_id": {
-    "$oid": "6566ba8ed200be7d13915096"
+    "$oid": "6566c1cd5edc11d949fae61d"
   },
   "nombre": "Diego Simeone",
   "edad": 51,
@@ -32,7 +32,7 @@
 },
 {
   "_id": {
-    "$oid": "6566ba8ed200be7d13915097"
+    "$oid": "6566c1cd5edc11d949fae61e"
   },
   "nombre": "Thomas Tuchel",
   "edad": 48,

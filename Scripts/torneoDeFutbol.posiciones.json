@@ -1,6 +1,6 @@
 [{
   "_id": {
-    "$oid": "6566bb56d200be7d139150a7"
+    "$oid": "6566c29c5edc11d949fae62e"
   },
   "equipo": "Paris Saint-Germain",
   "puntos": 15,
@@ -11,7 +11,7 @@
 },
 {
   "_id": {
-    "$oid": "6566bb56d200be7d139150a8"
+    "$oid": "6566c29c5edc11d949fae62f"
   },
   "equipo": "Manchester United",
   "puntos": 8,
@@ -22,7 +22,7 @@
 },
 {
   "_id": {
-    "$oid": "6566bb56d200be7d139150a9"
+    "$oid": "6566c29c5edc11d949fae630"
   },
   "equipo": "Real Madrid",
   "puntos": 7,
@@ -33,7 +33,7 @@
 },
 {
   "_id": {
-    "$oid": "6566bb56d200be7d139150aa"
+    "$oid": "6566c29c5edc11d949fae631"
   },
   "equipo": "Bayern Munich",
   "puntos": 6,
@@ -44,7 +44,7 @@
 },
 {
   "_id": {
-    "$oid": "6566bb56d200be7d139150ab"
+    "$oid": "6566c29c5edc11d949fae632"
   },
   "equipo": "Barcelona",
   "puntos": 4,
