@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "6566bb21d200be7d139150a2"
+  },
+  "encuentroID": {
+    "$oid": "5fb3c1d4684b44f7c38fd7a1"
+  },
+  "resultadoLocal": 3,
+  "resultadoVisitante": 1
+},
+{
+  "_id": {
+    "$oid": "6566bb21d200be7d139150a3"
+  },
+  "encuentroID": {
+    "$oid": "5fb3c1d4684b44f7c38fd7a2"
+  },
+  "resultadoLocal": 2,
+  "resultadoVisitante": 2
+},
+{
+  "_id": {
+    "$oid": "6566bb21d200be7d139150a4"
+  },
+  "encuentroID": {
+    "$oid": "5fb3c1d4684b44f7c38fd7a3"
+  },
+  "resultadoLocal": 1,
+  "resultadoVisitante": 0
+},
+{
+  "_id": {
+    "$oid": "6566bb21d200be7d139150a5"
+  },
+  "encuentroID": {
+    "$oid": "5fb3c1d4684b44f7c38fd7a4"
+  },
+  "resultadoLocal": 4,
+  "resultadoVisitante": 2
+},
+{
+  "_id": {
+    "$oid": "6566bb21d200be7d139150a6"
+  },
+  "encuentroID": {
+    "$oid": "5fb3c1d4684b44f7c38fd7a5"
+  },
+  "resultadoLocal": 0,
+  "resultadoVisitante": 1
+}]

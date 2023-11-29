@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6566bac2d200be7d13915098"
+  },
+  "nombre": "Howard Webb",
+  "edad": 50,
+  "pais": "Inglaterra"
+},
+{
+  "_id": {
+    "$oid": "6566bac2d200be7d13915099"
+  },
+  "nombre": "Felix Brych",
+  "edad": 46,
+  "pais": "Alemania"
+},
+{
+  "_id": {
+    "$oid": "6566bac2d200be7d1391509a"
+  },
+  "nombre": "Nicola Rizzoli",
+  "edad": 50,
+  "pais": "Italia"
+},
+{
+  "_id": {
+    "$oid": "6566bac2d200be7d1391509b"
+  },
+  "nombre": "Bjorn Kuipers",
+  "edad": 48,
+  "pais": "Países Bajos"
+},
+{
+  "_id": {
+    "$oid": "6566bac2d200be7d1391509c"
+  },
+  "nombre": "Cüneyt Çakır",
+  "edad": 45,
+  "pais": "Turquía"
+}]

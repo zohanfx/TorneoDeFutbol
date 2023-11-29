@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "6566baf0d200be7d1391509d"
+  },
+  "equipoLocal": "Real Madrid",
+  "equipoVisitante": "Barcelona",
+  "fecha": {
+    "$date": "2023-01-15T20:00:00.000Z"
+  },
+  "estadio": "Santiago Bernabéu"
+},
+{
+  "_id": {
+    "$oid": "6566baf0d200be7d1391509e"
+  },
+  "equipoLocal": "Manchester United",
+  "equipoVisitante": "Manchester City",
+  "fecha": {
+    "$date": "2023-02-05T18:30:00.000Z"
+  },
+  "estadio": "Old Trafford"
+},
+{
+  "_id": {
+    "$oid": "6566baf0d200be7d1391509f"
+  },
+  "equipoLocal": "Paris Saint-Germain",
+  "equipoVisitante": "Bayern Munich",
+  "fecha": {
+    "$date": "2023-03-10T19:45:00.000Z"
+  },
+  "estadio": "Parc des Princes"
+},
+{
+  "_id": {
+    "$oid": "6566baf0d200be7d139150a0"
+  },
+  "equipoLocal": "Liverpool",
+  "equipoVisitante": "Chelsea",
+  "fecha": {
+    "$date": "2023-04-02T17:00:00.000Z"
+  },
+  "estadio": "Anfield"
+},
+{
+  "_id": {
+    "$oid": "6566baf0d200be7d139150a1"
+  },
+  "equipoLocal": "Atletico Madrid",
+  "equipoVisitante": "Juventus",
+  "fecha": {
+    "$date": "2023-05-20T20:30:00.000Z"
+  },
+  "estadio": "Wanda Metropolitano"
+}]
