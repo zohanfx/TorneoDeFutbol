@@ -1,0 +1,66 @@
+//Comandos de la cuarta actividad 
+
+md C:\data\repl\n1
+md C:\data\repl\n2
+md C:\data\repl\n3
+md C:\data\repl\n4
+md C:\data\repl\n5
+md C:\data\repl\n6
+
+md C:\data\config\n1
+md C:\data\config\n2
+md C:\data\config\n3
+
+mongod --port 27017 --dbpath \data\repl\n1 --replSet rs0
+mongod --port 27018 --dbpath \data\repl\n2 --replSet rs0
+mongod --port 27019 --dbpath \data\repl\n3 --replSet rs0
+
+strat mongo --port 27022 --dbpath \data\config\n1
+strat mongo --port 27023 --dbpath \data\config\n2
+strat mongo --port 27024 --dbpath \data\config\n3
+
+
+//Comando de la tercera actividad:
+
+db = (new Mongo("localhost:20006")).getDB("Biblioteca") 
+for (i= 0; i < 800000; i++) {
+    db.Autores.insert({author : "author" +i, post_title : "Blog Post by Author "
+    +i, date: new Date() });
+}
+
+for (i= 0; i < 50000; i++) {
+db.Autores.insert({author : "author" +i, Nombres : "Recuento de autores" +i, date: new Date() });
+}
+
+
+for (i= 0; i < 25000; i++) {
+db.Editoriales.insert({Editorial : "Editorial" +i, Nombres : "Recuento de editoriales " +i, date: new Date() });
+}
+
+for (i= 0; i < 20000; i++) {
+db.MisLibros.insert({Libro : "Libro" +i, Nombres : "Recuento de libros" +i,date: new Date() });
+}
+
+db.Autores.count()
+db.Editoriales.count()
+db.MisLibros.count()
+
+shard1 = new Mongo("localhost:20000")
+shard1DB = shard1.getDB("Biblioteca")
+shard1DB.Autores.count()
+
+shard2= new Mongo("localhost:20001")
+shard2DB = shard2.getDB("Biblioteca")
+shard2DB.Autores.count()
+
+shard3= new Mongo("localhost:20002")
+shard3DB = shard3.getDB("Biblioteca")
+shard3DB.Autores.count()
+
+shard1 = new Mongo("localhost:20006")
+sh.status()
+
+sh.enableSharding("Biblioteca")
+db.Autores.ensureIndex({author : 1})
+
+sh.shardCollection("Biblioteca.Autores", {author: 1})
